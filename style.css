@@ -1,0 +1,109 @@
+ h2{
+    text-decoration: underline;
+    font-family: cursive;
+ }
+ {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.container span {
+  color: brown;
+  text-transform: uppercase;
+  display: block;
+}
+.text1 {
+  font-size: 60px;
+  font-family: serif;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 5px;
+  background: black;
+  position: relative;
+  animation: text 3s 1;
+}
+.text2 {
+  font-style: oblique;
+  font-size: 43px;
+  font-family: serif;
+  
+}
+@keyframes text {
+  0% {
+    margin-bottom: -40px;
+  }
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+.index-intro {
+    background-image: url("https://www.freevector.com/uploads/vector/preview/30374/Colorful-Plait-Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: -200px;
+    padding: 300px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+#wrapper div {
+    margin: 0 auto;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+}
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+body{
+  background-image: url("https://img.wallpapersafari.com/desktop/1600/900/65/71/12MjuG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  float: right;
+  
+}
+
+.btn:hover {background: #eee;}
+
+.ABOUT ME {color:red;}
+.ACADEMICS {color: red;}
+.CARRIER GOALS {color: red;}
+.PROJECTS {color: red;}
+.default {color: black;}
+
+</style>
+</head>
+<body>
+
+
+        
+}
